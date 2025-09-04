@@ -72,3 +72,34 @@ It includes:
 
 ## 📄 License
 This project is for **educational purposes only** and not intended for commercial use.
+
+## 📌 Changelog
+
+### v1.0 – Initial Setup (July 2025)
+- Created GitHub repository: `Formative-1-Part-1`
+- Added initial project files: `index.html`, `about.html`, `programs.html`, `enquiry.html`, `contact.html`
+- Created `css/style.css` with base styling
+- Published first version using GitHub Pages
+
+### v1.1 – Content & Layout Updates
+- Updated **About Us** page with mission, vision, and values (Care, Community, Integrity)
+- Added **Our Programs** page with 3-column layout (Health, Education, Community Strengthening)
+- Included split-section layout for "How We Measure Impact"
+- Fixed navigation links across all pages
+
+### v1.2 – Design Enhancements
+- Improved hero section with background image + gradient overlay
+- Styled buttons (`.btn` and `.btn.cta`) with hover effects
+- Added responsive design breakpoints for tablets and mobile
+- Standardized card layout for gallery and program features
+
+### v1.3 – Contact & Map Integration
+- Added **Contact Us** page with:
+  - Contact details and branch addresses
+  - Embedded Google Map (Johannesburg, SA)
+- Updated footer across all pages
+
+### v1.4 – Wireframes & Documentation
+- Designed and uploaded low-fidelity wireframes for all pages
+- Added project documentation in README (organisation overview, goals, features, technical requirements, timeline, budget)
+
