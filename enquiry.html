@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Helping Hands - Get Involved</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .mini-hero{
+      height: 220px; display:grid; place-items:center; text-align:center; color:#fff;
+      background:url('https://images.unsplash.com/photo-1465406325909-581078a4b6f8?auto=format&fit=crop&w=1600&q=70') center/cover no-repeat;
+      position:relative;
+    }
+    .mini-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.25),rgba(0,0,0,.55))}
+    .mini-hero h1{position:relative;z-index:1;margin:0}
+  </style>
+</head>
+<body>
+  <header class="site-header"><h1>Get Involved</h1><p>Volunteer, sponsor, or donate</p></header>
+  <nav class="primary">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="programs.html">Our Programs</a></li>
+      <li><a href="enquiry.html">Get Involved</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="mini-hero"><h1>Make an Impact in South Africa</h1></div>
+
+  <section class="section">
+    <h2>Tell us how you’d like to help</h2>
+    <form onsubmit="alert('Thank you! We will contact you shortly.'); return false;">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required />
+
+      <label for="type">I want to</label>
+      <select id="type">
+        <option>Volunteer</option>
+        <option>Become a Sponsor</option>
+        <option>Donate goods</option>
+      </select>
+
+      <label for="message">Message</label>
+      <textarea id="message" placeholder="Share any details, dates, or questions"></textarea>
+
+      <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap">
+        <button type="submit" class="btn">Submit</button>
+        <a class="btn secondary" href="programs.html">View programs</a>
+      </div>
+    </form>
+  </section>
+
+  <footer class="site-footer"><div class="meta">&copy; 2025 Helping Hands NGO</div></footer>
+</body>
+</html>
