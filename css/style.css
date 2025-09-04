@@ -93,9 +93,10 @@ nav.primary a:focus{outline:2px solid var(--highlight); outline-offset:2px}
 /* ===============================
    Grid + Cards (3-column layout)
 ================================= */
-.grid{
-  display:grid; grid-template-columns:repeat(3, 1fr); gap:20px;
-}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media (max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:600px){.grid{grid-template-columns:1fr}}
+
 .card{
   background:#fff; border-radius:12px; overflow:hidden;
   box-shadow:0 4px 12px rgba(0,0,0,.1); text-align:center;
