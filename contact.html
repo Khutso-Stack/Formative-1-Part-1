@@ -1,51 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="css/style.css?v=2">
   <title>Helping Hands - Contact</title>
- 
-
+  <link rel="stylesheet" href="css/style.css?v=2" />
 </head>
 <body>
-  <header><h1>Contact Us</h1></header>
-  <nav>
+
+  <!-- matches .site-header styles -->
+  <header class="site-header">
+    <h1>Contact Us</h1>
+    <p>We're here to help — get in touch</p>
+  </header>
+
+  <!-- matches nav.primary styles -->
+  <nav class="primary" aria-label="Main">
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About Us</a></li>
       <li><a href="programs.html">Our Programs</a></li>
       <li><a href="enquiry.html">Get Involved</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
     </ul>
   </nav>
 
-  <section>
-    <h2>Get in Touch</h2>
-    <p>Email: info@helpinghands.org.za</p>
-    <p>Contact Person: Khutso Sebea</p>
-    <p>Phone: +27 11 555 1234</p>
+  <!-- matches .section card styling -->
+  <section class="section" aria-labelledby="get-in-touch">
+    <h2 id="get-in-touch">Get in Touch</h2>
+
+    <p><strong>Email:</strong> <a href="mailto:info@helpinghands.org.za">info@helpinghands.org.za</a></p>
+    <p><strong>Contact Person:</strong> Khutso Sebea</p>
+    <p><strong>Phone:</strong> <a href="tel:+27115551234">+27 11 555 1234</a></p>
 
     <h3>Our Locations</h3>
-    <p>Johannesburg Branch - 123 Main Road</p>
-    <p>Pretoria Branch - 45 Church Street</p>
+    <address>
+      <p><strong>Johannesburg Branch</strong><br>
+      123 Main Road, Johannesburg, South Africa</p>
 
-    <!-- contact.html -->
-<h3>Find Us on the Map</h3>
-<div class="map-wrap">
-  <iframe 
-    src="https://www.google.com/maps?q=Johannesburg%20South%20Africa&output=embed"
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"
-    allowfullscreen>
-  </iframe>
-</div>
+      <p><strong>Pretoria Branch</strong><br>
+      45 Church Street, Pretoria, South Africa</p>
+    </address>
 
+    <h3>Find Us on the Map</h3>
+    <div class="map-wrap" style="margin-top:12px">
+      <iframe
+        src="https://www.google.com/maps?q=Johannesburg%2C%20South%20Africa&output=embed"
+        title="Johannesburg Branch Map"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <!-- Optional: add a second map for Pretoria -->
+    <!--
+    <h4 style="margin-top:18px">Pretoria Branch</h4>
+    <div class="map-wrap" style="margin-top:8px">
+      <iframe
+        src="https://www.google.com/maps?q=Pretoria%2C%20South%20Africa&output=embed"
+        title="Pretoria Branch Map"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen>
+      </iframe>
+    </div>
+    -->
   </section>
 
-  <footer><p>&copy; 2025 Helping Hands NGO</p></footer>
+  <!-- matches .site-footer styles -->
+  <footer class="site-footer">
+    <div class="meta">&copy; 2025 Helping Hands NGO</div>
+  </footer>
+
 </body>
-
 </html>
-
-
