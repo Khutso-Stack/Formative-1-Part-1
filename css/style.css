@@ -280,6 +280,14 @@ textarea {
   filter: brightness(1.1);
 }
 
+/* Error message styling */
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: -8px;
+  margin-bottom: 8px;
+  display: block;
+}
 
 /* ===============================
    Scroll offset fix
