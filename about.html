@@ -4,18 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="css/style.css?v=2">
-  <title>Helping Hands – About Us</title>
-  
+  <title>Helping Hands – Home</title>
 </head>
 <body>
   <header class="site-header">
-    <h1>About Us</h1>
+    <h1>Helping Hands Children’s Shelter</h1>
     <p>Support for today and opportunities for tomorrow</p>
   </header>
 
   <nav class="primary">
     <ul>
-      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html" aria-current="page">Home</a></li>
       <li><a href="about.html">About Us</a></li>
       <li><a href="programs.html">Our Programs</a></li>
       <li><a href="enquiry.html">Get Involved</a></li>
@@ -23,33 +22,41 @@
     </ul>
   </nav>
 
+  <section class="hero">
+    <div class="inner">
+      <h2>Every child deserves care and hope</h2>
+      <p>Together we can provide shelter, meals, and opportunities for brighter futures.</p>
+      <a href="programs.html" class="btn cta">Explore Our Programs</a>
+    </div>
+  </section>
+
   <section class="section split">
-    <!-- Text block (left) -->
     <div class="text">
       <h2>Our Values</h2>
-      <p class="meta" style="margin-top:-6px;margin-bottom:12px;">
-        What guides our work with children and communities.
-      </p>
+      <p class="meta">What guides our work with children and communities.</p>
 
-      <article class="value">
+      <article>
         <h3>Care</h3>
-        <p>We lead with empathy, treating every child with dignity and warmth. Our teams provide safe shelter, nutritious meals, and daily encouragement so children feel seen and supported.</p>
+        <p>We lead with empathy, treating every child with dignity and warmth.</p>
       </article>
 
-      <article class="value">
+      <article>
         <h3>Community</h3>
-        <p>We partner with families, schools, and local organisations to uplift neighbourhoods together. Volunteers and donors work alongside us to create lasting change, one street and one child at a time.</p>
+        <p>We partner with families, schools, and local organisations to uplift together.</p>
       </article>
 
-      <article class="value">
+      <article>
         <h3>Integrity</h3>
-        <p>We are transparent, accountable, and responsible with every rand and resource. Clear reporting and ethical practice guide our decisions—because trust is the foundation of our impact.</p>
+        <p>We are transparent and accountable—trust is the foundation of our impact.</p>
       </article>
     </div>
 
-    <!-- Image block (right) -->
     <div class="image">
-      <img src="images/NGO.jpg" alt="Helping Hands values" width="600px" height="300px">
+      <img 
+        src="images/NGO-800.jpg"
+        srcset="images/NGO-400.jpg 400w, images/NGO-800.jpg 800w, images/NGO-1200.jpg 1200w"
+        sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 33vw"
+        alt="Children supported by Helping Hands">
     </div>
   </section>
 
@@ -58,7 +65,3 @@
   </footer>
 </body>
 </html>
-
-
-
-
