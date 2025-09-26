@@ -3,18 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Helping Hands - Contact</title>
+  <title>Helping Hands – Contact</title>
   <link rel="stylesheet" href="css/style.css?v=2" />
+  <meta name="description" content="Contact Helping Hands Children's Shelter in Johannesburg and Pretoria. Reach us via email, phone, or visit our branches." />
+  <style>
+    /* Extra spacing for multiple maps */
+    .map-wrap + .map-wrap {
+      margin-top: var(--space-3);
+    }
+  </style>
 </head>
 <body>
 
-  <!-- matches .site-header styles -->
   <header class="site-header">
     <h1>Contact Us</h1>
     <p>We're here to help — get in touch</p>
   </header>
 
-  <!-- matches nav.primary styles -->
   <nav class="primary" aria-label="Main">
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -25,13 +30,12 @@
     </ul>
   </nav>
 
-  <!-- matches .section card styling -->
   <section class="section" aria-labelledby="get-in-touch">
     <h2 id="get-in-touch">Get in Touch</h2>
 
     <p><strong>Email:</strong> <a href="mailto:info@helpinghands.org.za">info@helpinghands.org.za</a></p>
     <p><strong>Contact Person:</strong> Khutso Sebea</p>
-    <p><strong>Phone:</strong> <a href="tel:+27115551234">+27 11 555 1234</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+27115551234">+27 (11) 555-1234</a></p>
 
     <h3>Our Locations</h3>
     <address>
@@ -43,7 +47,9 @@
     </address>
 
     <h3>Find Us on the Map</h3>
-    <div class="map-wrap" style="margin-top:12px">
+
+    <!-- Johannesburg map -->
+    <div class="map-wrap">
       <iframe
         src="https://www.google.com/maps?q=Johannesburg%2C%20South%20Africa&output=embed"
         title="Johannesburg Branch Map"
@@ -53,10 +59,8 @@
       </iframe>
     </div>
 
-    <!-- Optional: add a second map for Pretoria -->
-    <!--
-    <h4 style="margin-top:18px">Pretoria Branch</h4>
-    <div class="map-wrap" style="margin-top:8px">
+    <!-- Pretoria map -->
+    <div class="map-wrap">
       <iframe
         src="https://www.google.com/maps?q=Pretoria%2C%20South%20Africa&output=embed"
         title="Pretoria Branch Map"
@@ -65,10 +69,8 @@
         allowfullscreen>
       </iframe>
     </div>
-    -->
   </section>
 
-  <!-- matches .site-footer styles -->
   <footer class="site-footer">
     <div class="meta">&copy; 2025 Helping Hands NGO</div>
   </footer>
