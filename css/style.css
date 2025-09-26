@@ -288,6 +288,32 @@ textarea {
   margin-bottom: 8px;
   display: block;
 }
+/* Mobile: make the nav non-sticky and compact */
+@media (max-width: 768px){
+  nav.primary { 
+    position: static;                 /* not sticky on small screens */
+  }
+  nav.primary ul{
+    flex-direction: row;              /* put items side-by-side */
+    flex-wrap: wrap;                  /* wrap to 2 lines if needed */
+    gap: 6px 10px;                    /* smaller spacing */
+    padding: 6px var(--space-2);
+    justify-content: center;
+  }
+  nav.primary a{
+    padding: 8px 10px;                /* smaller touch target */
+    font-size: 0.95rem;
+    border-bottom-width: 2px;         /* thinner underline */
+  }
+}
+
+/* Extra small phones */
+@media (max-width: 480px){
+  .site-header { padding: var(--space-3) var(--space-2); }  /* slightly shorter header */
+  nav.primary ul{ gap: 4px 8px; }
+  nav.primary a{ font-size: 0.9rem; padding: 8px 10px; }
+}
+
 
 /* ===============================
    Scroll offset fix
