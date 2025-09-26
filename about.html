@@ -1,18 +1,22 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="css/style.css?v=2">
   <title>Helping Hands – Home</title>
+  <meta name="description" content="Helping Hands Children's Shelter provides shelter, meals, education and community support to vulnerable children across South Africa.">
+  <link rel="stylesheet" href="css/style.css?v=2">
 </head>
 <body>
+  <!-- Site header -->
   <header class="site-header">
     <h1>Helping Hands Children’s Shelter</h1>
     <p>Support for today and opportunities for tomorrow</p>
   </header>
 
-  <nav class="primary">
+  <!-- Primary nav -->
+  <nav class="primary" aria-label="Main">
     <ul>
       <li><a href="index.html" aria-current="page">Home</a></li>
       <li><a href="about.html">About Us</a></li>
@@ -22,6 +26,7 @@
     </ul>
   </nav>
 
+  <!-- Hero (background handled in CSS .hero) -->
   <section class="hero">
     <div class="inner">
       <h2>Every child deserves care and hope</h2>
@@ -30,6 +35,7 @@
     </div>
   </section>
 
+  <!-- Intro / Values split -->
   <section class="section split">
     <div class="text">
       <h2>Our Values</h2>
@@ -52,37 +58,53 @@
     </div>
 
     <div class="image">
+      <!-- Use one of your images folder items -->
       <img 
         src="images/NGO.jpg"
-        srcset="images/NGO.jpg 400w, images/NGO-800.jpg 800w, images/NGO-1200.jpg 1200w"
-        sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 33vw"
-        alt="Children supported by Helping Hands">
+        alt="Children supported by Helping Hands"
+        class="img-fill">
     </div>
   </section>
-<section class="section">
-  <h2>Our Work in South Africa</h2>
-  <div class="grid">
-    <article class="card">
-      <img src="images/Kids-post-image.jpg" alt="Children in shelter">
-      <div class="body">Safe shelter for children</div>
-    </article>
 
-    <article class="card">
-      <img src="images/meal.jpg" alt="Meal distribution program">
-      <div class="body">Meal distribution program</div>
-    </article>
+  <!-- Gallery of work (uses your images folder contents) -->
+  <section class="section">
+    <h2>Our Work in South Africa</h2>
+    <div class="grid">
+      <!-- Shelter -->
+      <article class="card">
+        <img src="images/Kids-post-image.jpg" alt="Children in safe shelter">
+        <div class="body">Safe shelter for children</div>
+      </article>
 
-    <article class="card">
-      <img src="images/classroom.jpg" alt="Children in classroom support">
-      <div class="body">Children in classroom support</div>
-    </article>
-  </div>
-</section>
+      <!-- Meals -->
+      <article class="card">
+        <img src="images/meal.jpg" alt="Meal distribution to children">
+        <div class="body">Meal distribution program</div>
+      </article>
 
+      <!-- Classroom -->
+      <article class="card">
+        <img src="images/classroom.jpg" alt="Children receiving classroom support">
+        <div class="body">Children in classroom support</div>
+      </article>
+
+      <!-- School / Education -->
+      <article class="card">
+        <img src="images/school.jpg" alt="Learners with school support">
+        <div class="body">Education & school support</div>
+      </article>
+
+      <!-- Community / Shelter outreach -->
+      <article class="card">
+        <img src="images/shelter.jpg" alt="Community outreach and family support">
+        <div class="body">Community outreach & family support</div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer class="site-footer">
-    <div class="meta">&copy; 2025 Helping Hands NGO</div>
+    <div class="meta">&copy; 2025 Helping Hands NGO | All rights reserved</div>
   </footer>
 </body>
 </html>
-
-
