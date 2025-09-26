@@ -4,7 +4,7 @@ A responsive website created for **Helping Hands Children's Shelter**, a non-pro
 This project is based on **Proposal 1** of the WEDE5020 assignment.  
 
 👉 Live Site: [Helping Hands Website](https://khutso-stack.github.io/Formative-2-Part-2/)  
-👉 Repository: [Formative-1-Part-1](https://github.com/Khutso-Stack/Formative-1-Part-1)  
+👉 Repository: [Formative-2-Part-2](https://github.com/Khutso-Stack/Formative-2-Part-2)  
 
 ---
 
@@ -41,7 +41,7 @@ It includes:
 1. Clone or download this repository.  
 2. Ensure the `css` and `images` folders remain in the same directory as your HTML files.  
 3. Open `index.html` in any modern web browser.  
-4. Or simply visit the **live site**: [Helping Hands Website](https://khutso-stack.github.io/Formative-1-Part-1/)  
+4. Or simply visit the **live site**: [Helping Hands Website](https://khutso-stack.github.io/Formative-2-Part-2/)  
 
 ---
 
@@ -50,6 +50,24 @@ It includes:
 - Tablet → 2-column grid  
 - Mobile → stacked 1-column layout  
 - Sticky navigation for better user experience  
+
+### Responsive Screenshots
+
+#### Desktop (1280×800)
+| Page | Screenshot |
+|---|---|
+| Home | <img src="docs/screenshots/desktop-home.png" width="520" alt="Desktop – Home"> |
+| About | <img src="docs/screenshots/desktop-about.png" width="520" alt="Desktop – About"> |
+| Programs | <img src="docs/screenshots/desktop-programs.png" width="520" alt="Desktop – Programs"> |
+| Get Involved | <img src="docs/screenshots/desktop-enquiry.png" width="520" alt="Desktop – Enquiry"> |
+| Contact | <img src="docs/screenshots/desktop-contact.png" width="520" alt="Desktop – Contact"> |
+
+#### Mobile (375–430px)
+| Page | Screenshot |
+|---|---|
+| Home | <img src="docs/screenshots/mobile-home.jpg" width="240" alt="Mobile – Home"> |
+| Programs | <img src="docs/screenshots/mobile-programs.jpg" width="240" alt="Mobile – Programs"> |
+| Contact | <img src="docs/screenshots/mobile-contact.jpg" width="240" alt="Mobile – Contact"> |
 
 ---
 
