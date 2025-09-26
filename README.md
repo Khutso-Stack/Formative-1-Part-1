@@ -1,4 +1,26 @@
-# Formative-1-Part-1
+## Part 2 – CSS Styling & Responsive Design
+
+### Changelog
+- 2025-09-26: Created external stylesheet `css/style.css` and linked on all pages.
+- 2025-09-26: Established base theme tokens (colors, spacing, shadows) and global reset.
+- 2025-09-26: Implemented Grid/Flex layouts (`.grid`, `.split`, `.grid-2col`) for desktop.
+- 2025-09-26: Added visual styles (hover states, shadows, rounded cards, sticky nav).
+- 2025-09-26: Added responsive breakpoints (980px, 900px, 768px, 680px) and mobile nav.
+- 2025-09-26: Implemented responsive images with `srcset`/`sizes`.
+- 2025-09-26: Accessibility: focus-visible outlines and prefers-reduced-motion.
+- 2025-09-26: Updated hero image to use `image-set` for high-DPI screens.
+
+- ### Responsive Screenshots
+- `/docs/screenshots/desktop-home.png`
+- `/docs/screenshots/tablet-home.png`
+- `/docs/screenshots/mobile-home.png`
+- (repeat for About/Programs/Contact if required)
+
+### How to run
+Open `index.html` locally or visit GitHub Pages: <your live URL>.
+
+### Feedback from Part 1 – Implemented
+-# Formative-1-Part-1
 Formative 1 Part 1
 # Helping Hands NGO Website
 
@@ -102,4 +124,7 @@ This project is for **educational purposes only** and not intended for commercia
 ### v1.4 – Wireframes & Documentation
 - Designed and uploaded low-fidelity wireframes for all pages
 - Added project documentation in README (organisation overview, goals, features, technical requirements, timeline, budget)
+
+
+
 
