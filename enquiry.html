@@ -32,12 +32,14 @@
   <!-- Form section -->
   <section class="section">
     <h2>Tell us how you’d like to help</h2>
-    <form onsubmit="alert('Thank you! We will contact you shortly.'); return false;">
+    <form id="enquiryForm" novalidate>
       <label for="name">Full Name</label>
       <input type="text" id="name" name="name" required />
+      <span class="error" id="nameError"></span>
 
       <label for="email">Email</label>
       <input type="email" id="email" name="email" required />
+      <span class="error" id="emailError"></span>
 
       <label for="type">I want to</label>
       <select id="type" name="interest">
@@ -60,5 +62,40 @@
   <footer class="site-footer">
     <div class="meta">&copy; 2025 Helping Hands NGO</div>
   </footer>
+
+  <!-- Simple validation script -->
+  <script>
+    const form = document.getElementById('enquiryForm');
+    const nameInput = document.getElementById('name');
+    const emailInput = document.getElementById('email');
+    const nameError = document.getElementById('nameError');
+    const emailError = document.getElementById('emailError');
+
+    form.addEventListener('submit', function(e) {
+      let valid = true;
+      nameError.textContent = "";
+      emailError.textContent = "";
+
+      if (!nameInput.value.trim()) {
+        nameError.textContent = "Please enter your full name.";
+        valid = false;
+      }
+      if (!emailInput.value.trim()) {
+        emailError.textContent = "Please enter your email address.";
+        valid = false;
+      } else if (!emailInput.checkValidity()) {
+        emailError.textContent = "Please enter a valid email (e.g. name@example.com).";
+        valid = false;
+      }
+
+      if (!valid) {
+        e.preventDefault();
+      } else {
+        e.preventDefault();
+        alert("✅ Thank you! We will contact you shortly.");
+        form.reset();
+      }
+    });
+  </script>
 </body>
 </html>
