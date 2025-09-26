@@ -4,6 +4,29 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.2.0] - 2025-09-26
+### Added
+- **Homepage gallery** section using local images (`Kids-post-image.jpg`, `meal.jpg`, `classroom.jpg`, `school.jpg`, `shelter.jpg`) with captions.
+- **Responsive screenshots** (mobile & desktop) added under `/docs/screenshots/` and referenced in README.
+- `aria-current="page"` on active nav links for better accessibility feedback.
+
+### Changed
+- **Mobile navigation UX:** nav is non-sticky ≤768px, row+wrap layout, smaller paddings for more content space.
+- **Hero overlay tuning** for better legibility and image visibility (lighter gradient).
+- Standardised image usage across pages: removed inline `width/height`, rely on CSS `object-fit: cover`; where applicable, added `srcset/sizes` or `image-set`.
+
+### Fixed
+- Broken gallery images due to filename/path mismatches (case-sensitive on GitHub Pages).
+- Conflicting mobile nav rules at the same breakpoint (removed column stack rule).
+- Duplicate/weak `alt` text—improved descriptive alts on gallery and hero images.
+- Ensured embedded Google Maps are fully responsive inside `.map-wrap`.
+
+### Docs
+- README updated with **live site link**, structured **Responsive Screenshots** tables, and clearer run/deploy instructions.
+- Noted breakpoints (980px, 900px, 768px, 680px) and accessibility features (`:focus-visible`, reduced motion).
+
+
+
 ## [1.1.0] - 2025-09-26
 ### Added
 - Completed `index.html` homepage with hero section, welcome message, and gallery
