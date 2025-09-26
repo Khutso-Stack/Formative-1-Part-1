@@ -132,7 +132,31 @@ Low-fidelity wireframes were created for all pages as part of planning and docum
 ---
 
 ## 📌 Credits
-- Images: Unsplash & local placeholder images  
+- Images: Unsplash & local placeholder images
+- Depositphotos. Hungry African children [Stock photo].
+License: Royalty-free (paid stock).
+URL: https://depositphotos.com/photos/hungry-african-children.html 
+
+SOS Africa. South African children — photo gallery.
+License: Copyrighted gallery; permission may be required for reuse.
+URL: https://www.sosafrica.com/south-african-children-photo-gallery-images/
+
+African Relief. Starving African children: Crisis, causes & solutions (article).
+License: Article; embedded photos may be copyrighted.
+URL: https://africanrelief.org/starving-african-children-crisis-causes-solutions/
+
+Arise Africa. Feeding Program.
+License: Organisation site; photos may be copyrighted.
+URL: https://www.ariseafrica.org/what-we-do/feeding-program
+
+Alamy. Children eating in a soup kitchen, Cape Town, South Africa [Stock photo].
+License: Rights-managed/royalty-free (paid stock).
+URL: https://www.alamy.com/stock-photo-children-eating-in-a-soup-kitchen-cape-town-south-africa-15130061.html
+
+GROW Educare Centres. Feeding our beautiful future.
+License: Organisation site; photos may be copyrighted.
+URL: https://www.growecd.org.za/feeding-our-beautiful-future/ 
+
 - Designed & developed by **Khutso Sebea** for WEDE5020 practical assessment  
 
 ---
