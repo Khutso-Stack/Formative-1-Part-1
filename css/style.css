@@ -179,8 +179,7 @@ nav.primary a:focus { outline: 2px solid var(--highlight); outline-offset: 2px; 
   .hero { height: 46vh; }
 }
 @media (max-width:768px) {
-  nav.primary ul { flex-direction: column; align-items: center; }
-  .split { flex-direction: column; text-align: center; }
+   .split { flex-direction: column; text-align: center; }
   .split .image { margin-top: var(--space-2); }
 }
 @media (max-width:680px) {
